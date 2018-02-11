@@ -69,7 +69,7 @@ p {
 }
 .box p {
 	margin-top: 0px;
-	margin-bottom: 2em;
+	margin-bottom: 40px;
 	padding-right: 60px;
 	padding-left: 60px;
 }
@@ -132,6 +132,8 @@ p {
 	color: #fff;
 }
 .flex-row {
+	display: -webkit-flex;
+	display: -ms-flex;
 	display: flex;
 	height: 160px;
 	margin-bottom: 5px;
@@ -143,9 +145,13 @@ p {
 	flex: 1;
 	background-position: center;
     background-size: cover;
+    -webkit-transition: flex 1s;
+    -ms-transition: flex 1s;
     transition: flex 1s;
 }
 .flex-img:hover {
+	-webkit-flex: 2; 
+    -ms-flex: 2;
 	flex: 2;
 }
 .middle-img {
@@ -172,7 +178,7 @@ p {
 	color: #fff;
 	background-color: #3c3c3c;
 	border: 1px solid #3c3c3c ;
-	margin-bottom: 2em;
+	margin-bottom: 40px;
 	-webkit-transition-duration: 0.4s;
 	-ms-transition-duration: 0.4s;
     transition-duration: 0.4s;
