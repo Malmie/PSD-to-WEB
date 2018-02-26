@@ -26,7 +26,7 @@ p {
 	background-color: #a8b3c5;
 	background-image: url(../img/hero.png);
 	background-size: cover;
-	background-attachment: fixed;
+/*	background-attachment: fixed;*/
 	position: relative;
 }
 .hero-content {
@@ -80,7 +80,7 @@ p {
 	background-image: url(../img/services.png);
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+/*	background-attachment: fixed;*/
 	width: 100%;
 	color: #fff;
 }
