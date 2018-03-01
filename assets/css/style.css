@@ -275,6 +275,7 @@ p {
 @media (max-width: 768px) {
 	.hero {
 		background-image: url(../img/hero-mobile.jpg);
+		background-attachment: scroll!important;
 	}	
 	.hero-content {
 		padding-top: 20px;
@@ -305,6 +306,7 @@ p {
 	}
 	.services {
 		background-image: url(../img/services-mobile.jpg);
+		background-attachment: scroll!important;
 	}
 	.services h1::before {
 		width: 45px;
